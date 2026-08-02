@@ -1,4 +1,16 @@
 aid: tictail
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tictail.png
 name: tictail
 description: tictail is a company surfaced as a portfolio company of balderton-capital, creandum and added
   to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
@@ -25,3 +37,12 @@ maintainers:
 common:
 - type: Website
   url: https://tictail.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: Defunct — Tictail was acquired by Shopify (2018) and the platform/API shut
+    down (2019). tictail.com resolves to Shopify infrastructure (23.227.39.20), SPF
+    is "v=spf1 -all", and developers.tictail.com/api.tictail.com are NXDOMAIN. No API
+    surface exists to enrich.
